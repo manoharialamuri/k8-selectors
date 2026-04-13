@@ -17,7 +17,7 @@ metadata:
     tier: backend
 spec:
   affinity:
-    podAffinity:
+    podAntiAffinity:
     #Hard Rule
       requiredDuringSchedulingIgnoredDuringExecution:
       - labelSelector:
