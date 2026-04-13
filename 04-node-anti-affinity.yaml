@@ -20,7 +20,7 @@ spec:
             - amazon
   containers:
   - name: nginx
-    image: nginx'
+    image: nginx
   tolerations:
   - key: "hardware"
     operator: "Equal"
