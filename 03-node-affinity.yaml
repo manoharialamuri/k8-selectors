@@ -22,7 +22,7 @@ spec:
           - key: project
             operator: In
             values:     
-            - amazon 
+            - amazonn
       - weight: 1
         preference:
           matchExpressions:
